@@ -1,0 +1,147 @@
+/* 1. Basic Blog Layout CSS */
+
+/* Body Styling */
+body {
+    background-color: #f8f9fa; /* Light background */
+    font-family: 'Roboto', sans-serif; /* Roboto font */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #343a40; /* Dark background */
+    color: white; /* White text */
+    padding: 15px 0;
+    text-align: center; /* Center align */
+    font-size: 24px; /* Header font size */
+}
+
+/* Main Content Area */
+main {
+    margin: 20px auto;
+    max-width: 1200px; /* Limit the width for large screens */
+    padding: 15px;
+    background-color: #fff; /* White background for content */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Light shadow for styling */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40; /* Dark footer */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #333; /* Dark color for headings */
+    margin-bottom: 15px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Links */
+a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none; /* No underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Button Styles */
+.button {
+    background-color: #007bff; /* Blue button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* 2. Responsiveness (Mobile-Friendly Design) */
+@media (max-width: 768px) {
+    main {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    header {
+        font-size: 20px; /* Smaller font size for mobile */
+    }
+
+    h1 {
+        font-size: 24px; /* Smaller h1 font */
+    }
+
+    p {
+        font-size: 14px; /* Smaller paragraph font size */
+    }
+
+    .button {
+        padding: 8px 15px; /* Smaller button padding */
+    }
+}
+
+/* 3. Font Styling (Roboto Font) */
+
+/* Font Family for Body */
+body {
+    font-family: 'Roboto', sans-serif; /* Roboto as the default font */
+}
+
+/* Font Weights */
+h1 {
+    font-weight: 700; /* Bold headings */
+}
+
+p {
+    font-weight: 400; /* Regular paragraph */
+}
+
+/* 4. Blog-Specific Styles */
+
+/* Product Card Styling */
+.product-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.product-card .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745; /* Green price */
+}
+
+/* 5. Material Icons Integration */
+
+/* Material Icon Styling */
+.material-icons {
+    font-size: 24px; /* Set default icon size */
+    vertical-align: middle;
+    color: #007bff; /* Blue color for icons */
+}
